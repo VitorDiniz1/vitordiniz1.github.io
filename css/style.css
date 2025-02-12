@@ -441,6 +441,157 @@ body{
     font-size: 12px;
 }
 
+/* Para dispositivos com tela de até 768px (iPads e tablets pequenos) */
+@media (max-width: 768px) {
+    .container {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    /* Navbar */
+    .home .header .nav ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .home .header .nav ul li {
+        width: 100%;
+        text-align: left;
+        padding: 10px;
+    }
+
+    .home .banner {
+        width: 100%;
+        height: auto;
+        position: relative;
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .home .banner h1 {
+        font-size: 80px;
+    }
+
+    .about .container {
+        flex-direction: column;
+    }
+
+    .about .timing {
+        width: 100%;
+        padding: 10px;
+        margin-top: 0;
+    }
+
+    .about .experience {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .services .boxes {
+        flex-direction: column;
+    }
+
+    .services .box {
+        width: 100%;
+        margin: 10px 0;
+        padding: 30px 20px;
+    }
+
+    .appointment form {
+        margin-top: 40px;
+    }
+
+    .appointment .personal-data {
+        flex-direction: column;
+    }
+
+    .appointment .input-wrapper {
+        width: 100%;
+        margin-right: 0;
+    }
+
+    .gallery .gallery-wrapper {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        width: 100%;
+        height: auto;
+    }
+
+    .gallery .gallery-wrapper div {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .location .head {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .location .head .info {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+/* Para dispositivos com tela de até 480px (smartphones, incluindo iPhones menores) */
+@media (max-width: 480px) {
+    .home .banner h1 {
+        font-size: 50px;
+    }
+
+    .home .banner .slogan1,
+    .home .banner .slogan2 {
+        font-size: 12px;
+    }
+
+    .home .header .nav ul li a {
+        font-size: 10px;
+        padding: 10px;
+    }
+
+    .about .experience h2 {
+        font-size: 30px;
+    }
+
+    .services h2 {
+        font-size: 40px;
+    }
+
+    .appointment h2 {
+        font-size: 40px;
+    }
+
+    .gallery h2 {
+        font-size: 40px;
+    }
+
+    .location .head .info .text span {
+        font-size: 12px;
+    }
+
+    .appointment .personal-data {
+        flex-direction: column;
+    }
+
+    .appointment .input-wrapper {
+        margin-right: 0;
+    }
+
+    .appointment textarea {
+        height: 80px;
+    }
+
+    .gallery .gallery-wrapper div {
+        width: 100%;
+    }
+
+    .location .head .info {
+        width: 100%;
+        margin-bottom: 15px;
+    }
+}
+
+
 
 
 
